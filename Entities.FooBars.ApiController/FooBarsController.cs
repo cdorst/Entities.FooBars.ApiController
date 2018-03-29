@@ -71,11 +71,6 @@ namespace Entities.FooBars.ApiController
 
         /// <summary>Handles HTTP PUT requests to add or update FooBar resources</summary>
         [HttpPut]
-        public async Task<ActionResult<FooBar>> Put(FooBar resource)
-        {
-            var id = entity.GetKey();
-            if (id == 0)resource = await _repository.AddAsync(resource);elseresource = await _repository.UpdateAsync(resource);
-            return resource;
-        }
+        public async Task<ActionResult<FooBar>> Put(FooBar resource) => entity.GetKey() == 0 ? await _repository.AddAsync(resource) : await _repository.UpdateAsync(resource);
     }
 }
