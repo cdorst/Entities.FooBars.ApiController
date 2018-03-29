@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Copyright>Copyright © Christopher Dorst</Copyright>
+    <Description>ASP.NET Core web API controller for FooBar entities</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://cdorst-dev.azureedge.net/nuget/package-icon-64.png</PackageIconUrl>
+    <PackageId>CDorst.Entities.FooBars.ApiController</PackageId>
+    <PackageLicenseUrl>https://github.com/cdorst/Entities.FooBars.ApiController/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/cdorst/Entities.FooBars.ApiController</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cdorst/Entities.FooBars.ApiController</RepositoryUrl>
+    <Version>1.0.14</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDorst.Entities.FooBars.DatabaseContext" Version="1.0.14" />
+    <PackageReference Include="CDorst.DevOps.Code.DataAccess.Metapackages.ApiControllers" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
