@@ -4,6 +4,7 @@
 using DevOps.Code.DataAccess.Interfaces.Repository;
 using Entities.FooBars.DatabaseContext;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 
 namespace Entities.FooBars.ApiController
