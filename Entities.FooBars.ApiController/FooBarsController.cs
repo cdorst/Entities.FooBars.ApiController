@@ -74,7 +74,8 @@ namespace Entities.FooBars.ApiController
         public async Task<ActionResult<FooBar>> Put(FooBar resource)
         {
             var id = entity.GetKey();
-            if (id == 0) resource = await _repository.AddAsync(resource);else resource = await _repository.UpdateAsync(resource);return resource;
+            if (id == 0)resource = await _repository.AddAsync(resource);elseresource = await _repository.UpdateAsync(resource);
+            return resource;
         }
     }
 }
