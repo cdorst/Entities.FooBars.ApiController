@@ -15,12 +15,12 @@
     <PackageLicenseUrl>https://github.com/cdorst/Entities.FooBars.ApiController/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/cdorst/Entities.FooBars.ApiController</PackageProjectUrl>
     <RepositoryUrl>https://github.com/cdorst/Entities.FooBars.ApiController</RepositoryUrl>
-    <Version>1.0.20</Version>
+    <Version>1.0.21</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CDorst.Entities.FooBars.DatabaseContext" Version="1.0.20" />
-    <PackageReference Include="CDorst.DevOps.Code.DataAccess.Metapackages.ApiControllers" Version="1.0.0" />
+    <PackageReference Include="CDorst.Entities.FooBars.DatabaseContext" Version="1.0.21" />
+    <PackageReference Include="CDorst.DevOps.Code.DataAccess.Metapackages.ApiControllers" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
